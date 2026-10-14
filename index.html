@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Ibermotic Tech Moçambique - Material eléctrico, iluminação, redes informáticas, domótica e segurança.">
+
+    <title>Ibermotic Tech | Loja Online</title>
+    <link rel="icon" type="image/png" href="imagens/logo-1.png">
+
+    <!-- Ligação ao ficheiro CSS -->
+    <link rel="stylesheet" href="ibermotic_style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="topbar">
+        <span>
+            Avenida Principal, Edifício ACI,
+            junto à Vodacom, Nacala-Porto
+        </span>
+
+        <span>
+            848 089 983 · 821 998 694 · 846 551 415
+        </span>
+    </div>
+
+    <!-- CABEÇALHO E MENU -->
+    <header class="header">
+
+        <a class="brand" href="#inicio">
+            <img src="imagens/logo-1.png" alt="Logótipo da Ibermotic Tech" class="brand-logo">
+            <span>Ibermotic Tech</span>
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+            ☰
+        </button>
+
+        <nav id="nav">
+            <a href="#inicio">Início</a>
+            <a href="#categorias">Categorias</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#contactos">Contactos</a>
+        </nav>
+
+        <a class="cart-pill" href="#produtos">
+            Ver produtos
+            <span id="cartCount">0</span>
+        </a>
+
+    </header>
+
+    <main>
+
+        <!-- SECÇÃO PRINCIPAL -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    TECNOLOGIA · ELECTRICIDADE · SEGURANÇA
+                </p>
+
+                <h1>
+                    Soluções inteligentes
+                    <br>
+                    <span>para o teu projecto.</span>
+                </h1>
+
+                <p>
+                    Descobre materiais eléctricos, iluminação,
+                    redes informáticas e soluções de segurança
+                    para casa, escritório e indústria.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#produtos" class="btn btn-primary">
+                        Explorar produtos
+                    </a>
+
+                    <a href="#contactos" class="btn btn-outline">
+                        Pedir orçamento
+                    </a>
+
+                </div>
+
+                <div class="hero-note">
+                    <span class="dot"></span>
+                    Atendimento em Nacala-Porto
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <!-- Coloca a imagem principal na pasta images -->
+                <img src="imagens/00.jpeg" alt="Produtos e soluções técnicas da Ibermotic"
+                    onerror="this.onerror=null;this.src='https://placehold.co/800x500/eaf1f5/173d59?text=Ibermotic+Tech';">
+
+                <div class="image-caption">
+                    <strong>Ibermotic Tech</strong>
+                    <span>Equipamentos para projectos modernos</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- VANTAGENS E CATEGORIAS PRINCIPAIS -->
+        <section class="trust-strip">
+
+            <div>
+                <span class="trust-icon">⚡</span>
+                <span>
+                    <strong>Material eléctrico</strong>
+                    <small>Instalações e manutenção</small>
+                </span>
+            </div>
+
+            <div>
+                <span class="trust-icon">✦</span>
+                <span>
+                    <strong>Iluminação</strong>
+                    <small>Funcional e decorativa</small>
+                </span>
+            </div>
+
+            <div>
+                <span class="trust-icon">⌁</span>
+                <span>
+                    <strong>Redes e tecnologia</strong>
+                    <small>Conectividade e automação</small>
+                </span>
+            </div>
+
+            <div>
+                <span class="trust-icon">▣</span>
+                <span>
+                    <strong>Segurança</strong>
+                    <small>Vigilância e alarmes</small>
+                </span>
+            </div>
+
+        </section>
+
+        <!-- CATEGORIAS DE PRODUTOS -->
+        <section class="section" id="categorias">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">NAVEGA POR ÁREA</p>
+                    <h2>O que procuras hoje?</h2>
+                </div>
+
+                <p>
+                    Escolhe uma categoria para encontrar
+                    os produtos de que precisas.
+                </p>
+
+            </div>
+
+            <div class="category-grid">
+
+                <button class="category-card" data-category="Electricidade">
+                    <span class="category-symbol">⚡</span>
+                    <strong>Material eléctrico</strong>
+                    <small>Cabos, tomadas e disjuntores</small>
+                </button>
+
+                <button class="category-card" data-category="Iluminação">
+                    <span class="category-symbol">☼</span>
+                    <strong>Iluminação</strong>
+                    <small>Lâmpadas e candeeiros</small>
+                </button>
+
+                <button class="category-card" data-category="Redes">
+                    <span class="category-symbol">⌁</span>
+                    <strong>Redes informáticas</strong>
+                    <small>Routers, switches e cabos</small>
+                </button>
+
+                <button class="category-card" data-category="Segurança">
+                    <span class="category-symbol">▣</span>
+                    <strong>Segurança</strong>
+                    <small>Câmaras e alarmes</small>
+                </button>
+
+                <button class="category-card" data-category="Domótica">
+                    <span class="category-symbol">⌂</span>
+                    <strong>Domótica</strong>
+                    <small>Automação inteligente</small>
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- CATÁLOGO DE PRODUTOS -->
+        <section class="section products-section" id="produtos">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">CATÁLOGO</p>
+                    <h2>Produtos em destaque</h2>
+                </div>
+
+                <div class="product-tools">
+
+                    <input type="search" id="searchInput" placeholder="Pesquisar produto..."
+                        aria-label="Pesquisar produto">
+
+                    <select id="categoryFilter" aria-label="Filtrar categoria">
+                        <option value="Todos">Todas as categorias</option>
+                        <option value="Electricidade">Electricidade</option>
+                        <option value="Iluminação">Iluminação</option>
+                        <option value="Redes">Redes</option>
+                        <option value="Segurança">Segurança</option>
+                        <option value="Domótica">Domótica</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+            <p class="catalog-note">
+                Consulta os produtos e contacta a loja
+                para confirmar preços e disponibilidade.
+            </p>
+
+            <!-- O JavaScript coloca os produtos aqui -->
+            <div class="product-grid" id="productGrid"></div>
+
+        </section>
+
+        <!-- PEDIDOS DE ORÇAMENTO -->
+        <section class="quote-banner">
+
+            <div>
+                <p class="eyebrow">PRECISAS DE ALGO ESPECÍFICO?</p>
+
+                <h2>Não encontraste o produto?</h2>
+
+                <p>
+                    Contacta a nossa equipa para confirmar
+                    disponibilidade, preço e condições de entrega.
+                </p>
+            </div>
+
+            <a href="#contactos" class="btn btn-light">
+                Solicitar informação
+            </a>
+
+        </section>
+
+        <!-- SOBRE A EMPRESA -->
+        <section class="section about-section" id="sobre">
+
+            <div class="about-image">
+
+                <img src="imagens/01.png" alt="Fotografia da loja Ibermotic"
+                    onerror="this.onerror=null;this.src='https://placehold.co/800x500/eaf1f5/173d59?text=Sobre+a+Ibermotic';">
+
+            </div>
+
+            <div class="about-copy">
+
+                <p class="eyebrow">SOBRE A IBERMOTIC</p>
+
+                <h2>
+                    Tecnologia e soluções para o teu dia a dia.
+                </h2>
+
+                <p>
+                    A Ibermotic Tech Moçambique trabalha com
+                    material eléctrico, iluminação decorativa,
+                    redes informáticas, domótica, videovigilância
+                    e sistemas de alarme.
+                </p>
+
+                <p>
+                    Entra em contacto para obter informações
+                    sobre produtos, preços e disponibilidade.
+                </p>
+
+                <a href="#contactos" class="text-link">
+                    Falar com a loja →
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACTOS -->
+        <section class="contact-section" id="contactos">
+
+            <div class="contact-intro">
+
+                <p class="eyebrow">ESTAMOS AQUI PARA AJUDAR</p>
+
+                <h2>Contacta a Ibermotic</h2>
+
+                <p>
+                    Pede informações, confirma o stock
+                    ou solicita um orçamento.
+                </p>
+
+            </div>
+
+            <div class="contact-card">
+
+                <div>
+                    <small>ENDEREÇO</small>
+                    <strong>Avenida Principal, Edifício ACI</strong>
+                    <span>Junto à Vodacom, Nacala-Porto</span>
+                </div>
+
+                <div>
+                    <small>TELEFONES</small>
+                    <strong>848 089 983 / 821 998 694</strong>
+                    <span>846 551 415</span>
+                </div>
+
+                <div>
+                    <small>E-MAIL</small>
+                    <strong>geral@ibermotic.co.mz</strong>
+                </div>
+
+                <a href="#" class="btn btn-primary" id="whatsappLink" target="_blank" rel="noopener">
+                    Contactar pelo WhatsApp
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <a class="brand" href="#inicio">
+            <img src="imagens/logo-1.png" alt="Logótipo da Ibermotic Tech" class="brand-logo">
+            <span>Ibermotic Tech</span>
+        </a>
+        <p>
+            © <span id="year"></span>
+            Ibermotic Tech Moçambique.
+        </p>
+
+        <a href="#inicio">Voltar ao topo ↑</a>
+
+    </footer>
+
+    <!-- Ligação ao JavaScript -->
+    <script src="ibermotic.js"></script>
+
+</body>
+
+</html>
